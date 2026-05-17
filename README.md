@@ -6,4 +6,10 @@ Create a basic blue team home lab setup to practice security monitoring, detecti
 This project demonstrates a beginner-friendly SOC (Security Operations Center) homelab environment created for learning and practicing blue team operations, basic threat detection, log analysis, and attack simulation in an isolated lab setup.
 
 Currently, the lab consists of:
+1.  Kali Linux machine
+2.  Windows 10 machine
+
+# Virtualization
+VirtualBox 
+Isolated virtual network environment
 
