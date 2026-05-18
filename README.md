@@ -18,3 +18,6 @@ We need to properly configure our virtual machines to safely run testing tools a
 To learn more about VirtualBox network modes, go to the official website : (https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/networkingmodes.html)
 # 
 Download VirtualBox: (https://www.virtualbox.org/wiki/Downloads)
+
+1. Download VirtualBox for your operating system.
+![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/0593b54799dcfe2a59949410efec5d88dc1f0739/Images/virtualbox%20img%201.png)
