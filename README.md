@@ -49,6 +49,7 @@ Download VirtualBox: (https://www.virtualbox.org/wiki/Downloads)
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/99ae5b2fb7c2c80b7aae1236c46e8bdaf3cfb7f7/Images/kali%204.png)
 2.3 If you cannot see the `.vbox` file extension, open File Explorer > go to the View tab > enable File name extensions.
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/99ae5b2fb7c2c80b7aae1236c46e8bdaf3cfb7f7/Images/kali%203.png)
+2.4 Log in with the default username and password: `kali/kali`.
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/99ae5b2fb7c2c80b7aae1236c46e8bdaf3cfb7f7/Images/kali%205.png)
 
-# Now download Windows 10 from the official website: 
+# Now download Windows 10 from the official website: https://www.microsoft.com/en-in/software-download/windows10
