@@ -13,7 +13,9 @@ There are several free virtualization platforms available, such as VirtualBox, V
 | Windows 10       | Monitoring & detection |
 
 # Secure Network Configuration
-We need to properly configure our virtual machines to safely run testing tools and prevent any external access to the host system. VirtualBox provides several network configuration modes. For this lab, I chose the Internal Networking option to create a fully isolated environment for hands-on practice.
+We need to properly configure our virtual machines to safely run testing tools and prevent any external access to the host system. VirtualBox provides several network configuration modes. For this lab, I chose the Internal Networking option to create a fully isolated environment for hands-on practice. If you need internet access for testing tools, you can use the default NAT mode. 
+
+However, if you are analyzing malware and looking for additional indicators of compromise on a virtual machine, I highly recommend that the VM does not have internet connectivity and does not use a bridged network adapter. Instead, it should be placed on its own isolated network, or you can simply use the “Not Attached” mode.
 
 To learn more about VirtualBox network modes, go to the official website : (https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/networkingmodes.html)
 
@@ -80,6 +82,7 @@ To learn more about VirtualBox network modes, go to the official website : (http
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/b829c3ead2cfbd087ed38456b226ca8cc68765b8/Images/windows10%20img%203.png)
 
 3.2 Now check the “Create installation media” option.
+
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/b829c3ead2cfbd087ed38456b226ca8cc68765b8/Images/windows10%20img%204.png)
 
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/b829c3ead2cfbd087ed38456b226ca8cc68765b8/Images/windows10%20img%205.png)
@@ -119,6 +122,7 @@ To learn more about VirtualBox network modes, go to the official website : (http
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/b829c3ead2cfbd087ed38456b226ca8cc68765b8/Images/windows10%20img%2016.png)
 
 3.9 I prefer to go with the custom setup.
+
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/b829c3ead2cfbd087ed38456b226ca8cc68765b8/Images/windows10%20img%2017.png)
 
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/b829c3ead2cfbd087ed38456b226ca8cc68765b8/Images/windows10%20img%2018.png)
@@ -129,4 +133,6 @@ To learn more about VirtualBox network modes, go to the official website : (http
 
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/b829c3ead2cfbd087ed38456b226ca8cc68765b8/Images/windows10%20img%2020.png)
 
-#
+# Let’s configure our network as an internal network
+
+
