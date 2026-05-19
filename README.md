@@ -1,6 +1,8 @@
 # SOC-Home-Lab-Setup
 I built a simple and beginner-friendly SOC (Security Operations Center) home lab designed to provide an environment for hands-on practice in defensive cybersecurity. This project is part of my cybersecurity learning journey, where I practice blue team operations, basic threat detection, log analysis, and attack simulation in an isolated lab setup.
 
+I plan to continuously upgrade and expand this home lab in the future as part of my cybersecurity learning journey.
+
 # Virtualization
 Virtualization is a technology that allows a single physical computer to run multiple isolated virtual machines (VMs), each with its own operating system and applications simultaneously.
 
@@ -194,3 +196,4 @@ To learn more about VirtualBox network modes, go to the official website : (http
 ![network](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/54fa6495032844fd2154b48e3a623a5a49ec0c0f/Images/network%20img%2013.png)
 
 #
+
