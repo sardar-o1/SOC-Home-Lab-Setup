@@ -17,6 +17,8 @@ We need to properly configure our virtual machines to safely run testing tools a
 
 However, if you are analyzing malware and looking for additional indicators of compromise on a virtual machine, I highly recommend that the VM does not have internet connectivity and does not use a bridged network adapter. Instead, it should be placed on its own isolated network, or you can simply use the “Not Attached” mode.
 
+![network diagram](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/55f2e7b4613283948cf5af5f72d3ef7476a5df14/Images/Network%20diagram.png)
+
 To learn more about VirtualBox network modes, go to the official website : (https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/networkingmodes.html)
 
 # Download VirtualBox: (https://www.virtualbox.org/wiki/Downloads)
