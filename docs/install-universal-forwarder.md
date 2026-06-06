@@ -18,7 +18,7 @@
 
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/ffd23d05b27fad7d0945c44e60e9cb1704d18542/Screenshots/splunk_conf3.png)
 
-#
+# 
 
 # Now download the Universal Forwarder
 
@@ -55,13 +55,36 @@
 
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/ffd23d05b27fad7d0945c44e60e9cb1704d18542/Screenshots/UF8.png)
 
-9.
+9. The deployment server is an optional Splunk component that centrally manages configurations and updates for multiple Universal Forwarders. Enter the Splunk server IP and the default deployment port (8089).
 
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/ffd23d05b27fad7d0945c44e60e9cb1704d18542/Screenshots/UF9.png)
+
+10. The receiving server (the Splunk indexer) receives data from Universal Forwarders. Enter the Splunk server IP and the receiving port (default: 9997), which you configured earlier on the Splunk server.
+
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/ffd23d05b27fad7d0945c44e60e9cb1704d18542/Screenshots/UF10.png)
+
+11. Click "Finish" to complete the installation.
+
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/bc3370c1db9036cd9ed2cc26c92506b32df2e5ab/Screenshots/UF11.png)
 
+#
+
+## Again, go to the Splunk server to ensure the Ubuntu Splunk server is receiving data from the Universal Forwarder
+
+1. Log in to the Splunk server web interface and select "Search & Reporting".
+
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/bc3370c1db9036cd9ed2cc26c92506b32df2e5ab/Screenshots/splunk_conf4.png)
+
+2. Click "Data Summary".
+
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/bc3370c1db9036cd9ed2cc26c92506b32df2e5ab/Screenshots/splunk_conf5.png)
+
+3. We see our Windows host listed. Click a host, then view Source or Sourcetype to verify the selected log sources.
+
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/bc3370c1db9036cd9ed2cc26c92506b32df2e5ab/Screenshots/splunk_conf6.png)
+
+4. When you click the host, all events appear. Select Verbose mode — Splunk prioritizes completeness by discovering and extracting all available fields.
+
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/bc3370c1db9036cd9ed2cc26c92506b32df2e5ab/Screenshots/splunk_conf7.png)
+
+
