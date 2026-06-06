@@ -40,7 +40,19 @@ There are several free virtualization platforms available, such as VirtualBox, V
 
 # Installation Guide
 
-### Install kali linux: 
+### 1. Install [virtual box](docs/install-virtualbox.md)
+
+### 2. Install [kali linux](docs/install-kali-linux.md)
+
+### 3. Install [windows 10](docs/install-windows10.md)
+
+### 4. Install [sysmon](docs/install-sysmon.md)
+
+### 5. Install [ubuntu server](docs/install-ubuntu.md)
+
+### 6. Install [splunk enterprise](docs/install-splunk.md)
+
+### 7. Install [splunk universal forwarder](docs/install-universal-forwarder.md)
 
 # Secure Network Configuration
 We need to properly configure our virtual machines to safely run testing tools and prevent any external access to the host system. VirtualBox provides several network configuration modes. For this lab, I chose the Internal Networking option to create a fully isolated environment for hands-on practice. If you need internet access for testing tools, you can use the default NAT mode. 
