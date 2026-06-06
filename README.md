@@ -38,6 +38,9 @@ There are several free virtualization platforms available, such as VirtualBox, V
 [ Dashboards / Alerts / Detection Rules ]
 ```
 
+# Installation Guide
+
+### Install kali linux: 
 
 # Secure Network Configuration
 We need to properly configure our virtual machines to safely run testing tools and prevent any external access to the host system. VirtualBox provides several network configuration modes. For this lab, I chose the Internal Networking option to create a fully isolated environment for hands-on practice. If you need internet access for testing tools, you can use the default NAT mode. 
