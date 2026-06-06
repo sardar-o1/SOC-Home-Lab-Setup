@@ -9,10 +9,35 @@ Virtualization is a technology that allows a single physical computer to run mul
 There are several free virtualization platforms available, such as VirtualBox, VMware Workstation, and Microsoft Hyper-V. For this project, I chose VirtualBox because it is beginner-friendly, lightweight, and widely used for cybersecurity labs.
 
 # Currently, the lab consists of:
-| Virtual Machine | Purpose |
-|------------------|---------|
-| Kali Linux       | Attacking & testing |
-| Windows 10       | Monitoring & detection |
+
+| Virtual Machine | Operating System | Role |
+| :--- | :--- | :--- |
+| **Adversary Node** | Kali Linux | Attack Simulation | 
+| **Endpoint Target** | Windows 10 Enterprise | Victim Machine / Telemetry Source | 
+| **SIEM Engine** | Ubuntu Server | Splunk Enterprise Log Indexer | 
+
+# Lab Architecture
+
+```text
+[ Kali Linux (Attacker VM) ]
+           │
+           │ (Simulated Attacks / Malware Execution)
+           ▼
+[ Windows 10 (Victim VM) ]
+           │
+           │ (Generates: Security, System, Application, & Sysmon Logs)
+           ▼
+[ Splunk Universal Forwarder ]
+           │
+           │ (Sends Encrypted Event Data via Port 9997)
+           ▼
+[ Ubuntu Server (Splunk Enterprise) ]
+           │
+           │ (Ingests, Parses, & Indexes Log Data)
+           ▼
+[ Dashboards / Alerts / Detection Rules ]
+```
+
 
 # Secure Network Configuration
 We need to properly configure our virtual machines to safely run testing tools and prevent any external access to the host system. VirtualBox provides several network configuration modes. For this lab, I chose the Internal Networking option to create a fully isolated environment for hands-on practice. If you need internet access for testing tools, you can use the default NAT mode. 
