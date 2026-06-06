@@ -23,7 +23,7 @@
 # Now download the Universal Forwarder
 
 
-1. Open the Windows 10 VM, sign in to the Splunk website, then click "Trial & Download."
+1. Open the Windows 10 VM, sign in to the Splunk website (you already created an account when downloading Splunk Enterprise), then click "Trial & Download."
 
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/ffd23d05b27fad7d0945c44e60e9cb1704d18542/Screenshots/UF1.png)
 
