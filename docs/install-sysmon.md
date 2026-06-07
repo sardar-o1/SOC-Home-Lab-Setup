@@ -11,6 +11,8 @@ Sysmon requires a config file in order to tell the binary how to analyze the eve
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/14f62a451dda4c2b48d54c1a014c9eb6d1eb12a9/Screenshots/sysmon1.png)
 
 2. Download the Sysmon configuration file. Click "Code," then select "Download ZIP."
+   
+Alternatively, you can download the same file from this repository at configs/sysmon/sysmonconfig.xml.
 
 ![img](https://github.com/sardar-o1/SOC-Home-Lab-Setup/blob/14f62a451dda4c2b48d54c1a014c9eb6d1eb12a9/Screenshots/sysmon2.png)
 
