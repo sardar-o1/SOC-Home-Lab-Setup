@@ -50,11 +50,18 @@ This project is continuously evolving as I expand the lab with new technologies,
 
 ### 6. Install [splunk enterprise](docs/install-splunk.md)
 
-### 7. Install [splunk universal forwarder](docs/install-universal-forwarder.md)
+### 7. Install & Configure [splunk universal forwarder](docs/install-universal-forwarder.md)
 
 ### 8. Configure [Universal Forwarder to Collect Sysmon Logs](docs/configure-sysmon.md)
 
 
+# Troubleshooting Guide
 
+#### - Universal Forwarder not connecting to Splunk:
 
+Verify network connectivity between the Windows host and the Splunk server using the ping command. Ensure both machines can communicate with each other. Confirm that port 9997 is open on the Splunk indexer and not blocked by any firewall. Also verify that the Splunk Universal Forwarder service is running. If connectivity issues persist, review the VirtualBox network mode configuration (e.g., NAT, Internal Network, or Bridged Adapter) based on your lab setup.
+
+#### - No Sysmon events appearing in Splunk:
+
+Ensure the Sysmon service is installed and actively running on the Windows host. Verify that the Splunk Universal Forwarder inputs.conf is correctly configured to collect Sysmon logs. Also confirm that events are being generated in Event Viewer under Microsoft-Windows-Sysmon/Operational.
 
