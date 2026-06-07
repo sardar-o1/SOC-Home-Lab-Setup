@@ -1,6 +1,14 @@
 # Network Configuration
- 
- Let’s configure our network as an internal network. In this network configuration, we will set up a static IP to ensure that both machines can communicate with each other.
+
+When analyzing malware, avoid using Bridged Adapter mode. For maximum isolation, you can disable network connectivity entirely by selecting Not Attached.
+
+For this lab, Internal Networking in VirtualBox is used to create a fully isolated environment between Kali Linux and Windows 10 for hands-on practice. If internet access is required, the default NAT mode can be used.
+
+This setup helps demonstrate how to configure virtual machine networking based on specific requirements for security analysis.
+
+#
+
+Let’s configure our network as an internal network. In this network configuration, we will set up a static IP to ensure that both machines can communicate with each other.
 
  
 1. Open VirtualBox > select Kali Linux > go to Settings > and then select Network. You will see that the default network adapter is set to NAT.
