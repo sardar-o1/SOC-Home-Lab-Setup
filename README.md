@@ -52,6 +52,8 @@ This project is continuously evolving as I expand the lab with new technologies,
 
 ### 7. Install [splunk universal forwarder](docs/install-universal-forwarder.md)
 
+### 8. Configure [Universal Forwarder to Collect Sysmon Logs](docs/configure-sysmon.md)
+
 
 
 
