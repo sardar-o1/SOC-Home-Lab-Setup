@@ -1,10 +1,10 @@
 # SOC-Home-Lab-Setup
 ## Overview 
-This repository documents the development of my SOC (Security Operations Center) Home Lab, a hands-on cybersecurity environment built to practice and strengthen defensive security skills. The lab simulates a small enterprise network using virtualized systems and security tools, providing a controlled environment for monitoring, log analysis, threat detection, and incident investigation.
+This repository documents the setup and configuration of my SOC (Security Operations Center) Home Lab. The lab is built using virtual machines and security tools to create a hands-on environment for learning security monitoring, log management, and SIEM operations.
 
-The primary goal of this project is to gain practical experience with Blue Team operations by deploying and configuring security technologies such as SIEM solutions, endpoint monitoring tools, and network services. Through this lab, I perform attack simulations, analyze security events, investigate alerts, and improve my understanding of security monitoring workflows.
+Throughout this project, I installed, configured, and integrated tools such as Splunk, Sysmon, and Splunk Universal Forwarders to collect and centralize security events from multiple systems. The repository includes step-by-step installation guides, configuration files, network architecture diagrams, and documentation covering the complete setup process.
 
-This project is continuously evolving as I expand the lab with new technologies, security use cases, and detection capabilities to further develop my cybersecurity knowledge and practical SOC experience.
+The goal of this project is to gain practical experience with log collection, system monitoring, and SOC workflows while building a foundation for future threat detection and security analysis projects.
 
 # Currently, the lab consists of:
 
