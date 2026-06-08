@@ -50,7 +50,7 @@ The goal of this project is to gain practical experience with log collection, sy
 
 ### 7. Install & Configure [splunk universal forwarder](docs/install-universal-forwarder.md)
 
-### 8. Configure [Universal Forwarder to Collect Sysmon Logs](docs/configure-sysmon.md)
+### 8. Configure [Universal Forwarder to Collect Sysmon Logs](docs/forward-sysmon-logs-to-splunk.md)
 
 
 # Troubleshooting Guide
