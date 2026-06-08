@@ -31,9 +31,7 @@ The goal of this project is to gain practical experience with log collection, sy
            ▼
 [ Ubuntu Server (Splunk Enterprise) ]
            │
-           │ (Ingests, Parses, & Indexes Log Data)
-           ▼
-[ Dashboards / Alerts / Detection Rules ]
+(Ingests, Parses, & Indexes Log Data)
 ```
 
 # Installation Guide
